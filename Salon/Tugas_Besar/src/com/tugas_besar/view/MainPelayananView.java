@@ -9,12 +9,12 @@ package com.tugas_besar.view;
  *
  * @author LENOVO
  */
-public class MainViewMember extends javax.swing.JFrame {
+public class MainPelayananView extends javax.swing.JFrame {
 
     /**
-     * Creates new form MainViewMember
+     * Creates new form MainPelayananView
      */
-    public MainViewMember() {
+    public MainPelayananView() {
         initComponents();
     }
 
@@ -27,10 +27,10 @@ public class MainViewMember extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        memberView2 = new com.tugas_besar.view.MemberView();
+        pelayananView1 = new com.tugas_besar.view.PelayananView();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().add(memberView2, java.awt.BorderLayout.CENTER);
+        getContentPane().add(pelayananView1, java.awt.BorderLayout.CENTER);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -52,25 +52,25 @@ public class MainViewMember extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(MainViewMember.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MainPelayananView.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(MainViewMember.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MainPelayananView.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(MainViewMember.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MainPelayananView.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(MainViewMember.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MainPelayananView.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new MainViewMember().setVisible(true);
+                new MainPelayananView().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private com.tugas_besar.view.MemberView memberView2;
+    private com.tugas_besar.view.PelayananView pelayananView1;
     // End of variables declaration//GEN-END:variables
 }
